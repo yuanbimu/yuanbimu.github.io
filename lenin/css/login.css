@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F4F7 url("../img/login/background.jpg") no-repeat;
+}
+
+#outsideBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginBox {
+    max-width: 900px;
+    height: 600px;
+    display: flex;
+    background: white;
+    border-radius: 16px;
+}
+
+.leftBox {
+    width: 360px;
+    height: 600px;
+}
+
+.leftBox img {
+    background-size: 360px 600px;
+    width: 360px;
+    height: 600px;
+    border-radius: 16px 0 0 16px;
+}
+
+.rightBox {
+    width: 540px;
+    height: 600px;
+    border-left: 1px dashed #F2F2F2;
+}
+
+.rightBox h3 {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rightBox label {
+    margin-left: 10px;
+}
+
+
+.username, .password {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.username {
+    margin-left: 70px;
+    background: url("../img/login/user.png") no-repeat left;
+    border: 1px solid #666;
+    border-radius: 15px;
+    background-size: 25px 25px;
+    background-position-x: 20px;
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+.password {
+    margin-top: 30px;
+    margin-left: 70px;
+    background: url("../img/login/password.png") left no-repeat;
+    border: 1px solid #666;
+    border-radius: 15px;
+    background-size: 25px 25px;
+    background-position-x: 20px;
+    padding-left: 70px;
+}
+
+.login {
+    width: 374px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #ba6666, #904747);
+    box-shadow: 0 5px 10px 0 rgba(144, 71, 71, 0.5);
+    border-radius: 15px;
+    border: 0;
+    margin-left: 80px;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+/* 设置动画 */
+.rightBox .username, .password {
+    max-width: 330px;
+    outline: none;
+    -webkit-transition-duration: 0.2s;
+    animation-iteration-count: 1;
+    transition-duration: 0.1s;
+    animation: search-bar 0.4s;
+}
+
+.register {
+    width: 326px;
+    height: 21px;
+    padding: 0 24px;
+    margin: 30px auto 0 auto;
+}
+
+.register a {
+    text-decoration: none;
+}
+
+.newRegister {
+    float: left;
+}
+
+.phoneIdLogin {
+    float: right;
+}
+
+.otherLogin {
+    width: 540px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.otherLogin a {
+    text-decoration: none;
+    color: #91A0B5;
+    font-size: 14px;
+}
+
+.agreement {
+    width: 540px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 12px;
+}
+
+.agreement a {
+    text-decoration: none;
+    color: #A8A8B3;
+
+}
+
+@keyframes search-bar {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.register a:hover {
+    color: #91A0B5;
+}

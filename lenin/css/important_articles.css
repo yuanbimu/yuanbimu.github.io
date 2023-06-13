@@ -1,0 +1,175 @@
+main {
+    background: #FFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+#important_articles a, #floatBox a {
+    color: black;
+}
+
+#important_articles a:hover, #floatBox a:hover {
+    color: #91A0B5;
+}
+
+#contentBox {
+    width: 950px;
+    margin: 0 auto;
+
+}
+
+#important_articles_title {
+    height: 100px;
+}
+
+#important_articles_title h2 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.grayString {
+    clear: both;
+    height: 2px;
+    margin: 1.5em 0;
+    border: 0;
+    background: #bbb;
+}
+
+#important_articles_title p {
+    margin-top: 1.5em;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+
+#partOne {
+    text-align: center;
+}
+
+#partOne h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#partOne h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partOne ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#partTwo {
+    text-align: center;
+}
+
+#partTwo h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partTwo ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#partThree {
+    text-align: center;
+}
+
+#partThree h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partThree ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#partFour {
+    text-align: center;
+}
+
+#partFour h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partFour ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#partFive {
+    text-align: center;
+}
+
+#partFive h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partFive ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#partSix {
+    text-align: center;
+}
+
+#partSix h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#partSix ul {
+    margin-top: 1em;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+#floatBox {
+    width: 150px;
+    height: 200px;
+    position: fixed;
+    right: 10%;
+    top: 50%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 26px;
+}
+
+#floatBox div h3 {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+#floatBox p:nth-child(2) {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+main {
+    height: 1100px;
+    background: #FFF;
+    text-align: center;
+    /*border: 2px solid #333;*/
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#lenin {
+    margin-top: 30px;
+}
+
+.banner-container {
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-image-container {
+    width: 2000px;
+    height: 400px;
+    margin: 0 20px;
+    animation: text 30s infinite linear;
+    font-size: 0;
+    /*消除图片间隔*/
+
+}
+
+.banner-image-container img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+@keyframes text {
+
+    /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%,
+    10% {
+        /* margin-left:0px; */
+        transform: translateX(0px);
+    }
+
+    20%,
+    30% {
+        /* margin-left:-1200px; */
+        transform: translateX(-420px);
+    }
+
+    40%,
+    50% {
+        /* margin-left:-2400px; */
+        transform: translateX(-820px);
+    }
+
+    60%,
+    70% {
+        /* margin-left:-3600px; */
+        transform: translateX(-1220px);
+    }
+
+    80%,
+    90% {
+        /* margin-left:-4800px; */
+        transform: translateX(-1620px);
+    }
+
+    100%,
+    110% {
+        /* margin-left: 0px; */
+        transform: translateX(0px);
+    }
+}
+
+#lenin {
+    display: flex;
+    padding-bottom: 2em;
+}
+
+#jieshao {
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: left;
+    text-indent: 2em;
+    width: 400px;
+}
+
+.jiachu {
+    font-weight: 1000;
+}
+
+.xuanji {
+    color: #a600ff;
+
+}
+
+.xuanji a {
+    text-decoration: solid;
+}
+
+#xiaofenlan {
+    display: flex;
+}
+
+.left ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 15px;
+
+}
+
+.center ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.left ul, .center ul {
+    margin-top: 10px;
+}
+
+.right p:nth-child(2) {
+    margin-top: 10px;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+.left, .center, .right {
+    width: 300px;
+    height: 250px;
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid #000;
+}
