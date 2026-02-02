@@ -1,0 +1,27 @@
+name: Update Bilibili Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  
+  workflow_dispatch:  
+jobs:
+  update-bilibili-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3  
+
+    - name: Get Bilibili Stats
+      run: |
+        curl -s "https://api.bilibili.com/x/relation/stat?vmid=2109776" | jq '{follower: .data.follower, name: "符瑶koritsu", face: "https://i2.hdslb.com/bfs/face/a852499163294011a52bbd8952c3a8e90f6b386a.jpg"}' > bilibili-stats.json
+
+    - name: Commit and Push Bilibili Stats
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add bilibili-stats.json
+        git commit -m "Update Bilibili Stats" || echo "No changes to commit"
+        git push origin HEAD:main

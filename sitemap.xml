@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>[您的域名]/index.html</loc>
+</url>
+<url>
+  <loc>[您的域名]/index.html#hero</loc>
+</url>
+<url>
+  <loc>[您的域名]/index.html#about</loc>
+</url>
+<url>
+  <loc>[您的域名]/index.html#blog-preview</loc>
+</url>
+<url>
+  <loc>[您的域名]/index.html#showcase</loc>
+</url>
+<url>
+  <loc>[您的域名]/blog_gender.html</loc>
+</url>
+<url>
+  <loc>[您的域名]/blog_metro.html</loc>
+</url>
+</urlset>

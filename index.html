@@ -1,0 +1,389 @@
+<!--
+ _____                          _                    __   __          
+|  ___|   _ _   _  __ _  ___   | |    _____   _____  \ \ / /__  _   _ 
+| |_ | | | | | | |/ _` |/ _ \  | |   / _ \ \ / / _ \  \ V / _ \| | | |
+|  _|| |_| | |_| | (_| | (_) | | |__| (_) \ V /  __/   | | (_) | |_| |
+|_|   \__,_|\__, |\__,_|\___/  |_____\___/ \_/ \___|   |_|\___/ \__,_|
+            |___/                                                     
+
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東愛璃Lovely——秧歌星的狍子窝</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta property="og:title" content="東愛璃Lovely应援站 - 秧歌星的狍子窝">
+    <meta property="og:description" content="由粉丝们的爱组成的東愛璃Lovely应援网站，关注東愛璃Lovely喵! 关注東愛璃Lovely谢谢喵!">    
+    <meta name="keywords" content="東愛璃, Lovely, 狍子, 東愛璃Lovely, 博客, B站, 虚拟主播, Vup, Vtuber, 应援, 直播, 直播应援站, 東愛璃粉丝">
+    <meta property="og:image" content="img/fuyaoicon"> 
+    <meta property="og:type" content="website">
+
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+
+    <!-- 背景光斑装饰 (增加氛围感) -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- 导航栏 -->
+   <header class="glass-nav">
+    <div class="container nav-content">
+            <a href="index.html" class="logo-img-wrapper">
+            <img src="img/logojvjia.webp" alt="秧歌星的狍子窝 Logo" class="logo-gif">
+        </a>
+
+        <nav>
+            <a href="index.html#hero">主页</a>
+            <a href="index.html#about">关于</a>
+            <a href="index.html#blog-preview">文章</a>
+            <a href="index.html#showcase">橱窗</a>
+        </nav>
+    </div>
+    </header>
+
+    <!-- 首屏 Hero -->
+    <section id="hero" class="hero-section">
+        <div class="container fade-in-up">
+            <div class="avatar-wrapper">
+                <img src="img/fuyaoicon.webp" alt="Fuyao Avatar" class="avatar">
+                <!-- 装饰圈 -->
+            </div>
+            
+            <h1 class="site-title">東愛璃Lovely</h1>
+            <p class="subtitle">温柔可爱的虚拟偶像，秧歌星的狍子</p>
+
+           <!-- 两个主要社交媒体 -->
+            <div class="main-socials">
+                
+                <!-- Bilibili -->
+                <a href="https://space.bilibili.com/3821157" target="_blank" class="social-pill bilibili">
+                    <!-- 图标：直接写入，颜色 #00aeec，大小 28px -->
+                    <svg viewBox="0 0 512 512" width="28" height="28" fill="#00aeec" style="display:block; min-width:28px; margin-right:12px;">
+                        <path fill="currentColor" d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1c-17.2 17-39.1 25.9-65.5 26.7H92.02c-26.45-.8-48.21-9.8-65.28-27.2C9.682 419.4.767 396.5 0 368.2V169.8c.767-26 9.682-47.6 26.74-65.7C43.81 87.75 65.57 78.77 92.02 78h29.38L96.05 52.19c-5.75-5.73-8.63-13-8.63-21.79c0-8.8 2.88-16.06 8.63-21.797C101.8 2.868 109.1 0 117.9 0s16.1 2.868 21.9 8.603L213.1 78h88l74.5-69.397C381.7 2.868 389.2 0 398 0c8.8 0 16.1 2.868 21.9 8.603c5.7 5.737 8.6 12.997 8.6 21.797c0 8.79-2.9 16.06-8.6 21.79L394.6 78h29.3c26.4.77 48 9.75 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5c-5.2-6.1-14-9.4-22.7-9.8H96.05c-9.59.4-17.45 3.7-23.58 9.8c-6.14 6.1-9.4 13.9-9.78 23.5v194.4c0 9.2 3.26 17 9.78 23.5s14.38 9.8 23.58 9.8H416.4c9.2 0 17-3.3 23.3-9.8c6.3-6.5 9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2c-6.2 6.3-14 9.5-23.6 9.5c-9.6 0-17.5-3.2-23.6-9.5c-6.1-6.3-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2c6.3-6.3 13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2c-6.1 6.3-14 9.5-23.6 9.5c-9.6 0-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2c6.3-6.3 14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"></path>
+                    </svg>
+                    <div class="social-info">
+                        <span class="label">哔哩哔哩</span>
+                        <span id="fans-count">加载中...</span>
+                    </div>
+                </a>
+
+                <!-- 微博 -->
+                <a href="#" target="_blank" class="social-pill weibo">
+                    <!-- 图标：微博图标 -->
+                    <svg viewBox="0 0 512 512" width="28" height="28" fill="#e6162d" style="display:block; min-width:28px; margin-right:12px;">
+                        <path fill="currentColor" d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7c-22 4.8-28.8-28.1-7.1-32.8c50.1-10.9 92.3 37.1 76.5 84.8c-6.8 21.2-38.8 10.8-32-10.3M214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6c79.5-33.6 140.5-16.8 114 51.4c-3.7 9.4 1.1 10.9 8.3 13.1c135.7 42.3 34.8 215.2-169.7 215.2m143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7c-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116M347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3c72.3-15.2 134.8 52.8 111.7 124c-7.4 24.2 29.1 37 37.4 12c31.9-99.8-55.1-195.9-157.4-174.3m-78.5 311c-17.1 38.8-66.8 60-109.1 46.3c-40.8-13.1-58-53.4-40.3-89.7c17.7-35.4 63.1-55.4 103.4-45.1c42 10.8 63.1 50.2 46 88.5m-86.3-30c-12.9-5.4-30 .3-38 12.9c-8.3 12.9-4.3 28 8.6 34c13.1 6 30.8.3 39.1-12.9c8-13.1 3.7-28.3-9.7-34m32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4c-2.9 5.1-1.4 10.6 3.7 12.9c5.1 2 11.7-.3 14.6-5.4c2.8-5.2 1.1-10.9-4-12.9"/>
+                    </svg>
+                    <div class="social-info">
+                        <span class="label">微博</span>
+                        <span id="weibo-count">即将上线</span>
+                    </div>
+                </a>
+                
+            </div>
+
+            <div class="sub-socials">
+                
+                <!-- Instagram -->
+                <a href="https://t.me/fuyaokoritsu/" class="icon-btn" title="Telegram非官方直播通知频道" id="Telegram">
+                    <svg viewBox="0 0 32 32 " width="20" height="20">
+                    <path fill="currentColor" d="M16 .5C7.437.5.5 7.438.5 16S7.438 31.5 16 31.5c8.563 0 15.5-6.938 15.5-15.5S24.562.5 16 .5m7.613 10.619l-2.544 11.988c-.188.85-.694 1.056-1.4.656l-3.875-2.856l-1.869 1.8c-.206.206-.381.381-.781.381l.275-3.944l7.181-6.488c.313-.275-.069-.431-.482-.156l-8.875 5.587l-3.825-1.194c-.831-.262-.85-.831.175-1.231l14.944-5.763c.694-.25 1.3.169 1.075 1.219z"></path>
+                    </svg>
+                </a>
+
+                <!-- onlyfans -->
+                <a href="https://onlyfans.com/u474156005/" class="icon-btn" title="OnlyFans" id="OnlyFans">
+                    <svg viewBox="0 0 24 24 " width="20" height="20">
+                    <path fill="currentColor" d="M24 4.003h-4.015c-3.45 0-5.3.197-6.748 1.957a7.996 7.996 0 1 0 2.103 9.211c3.182-.231 5.39-2.134 6.085-5.173c0 0-2.399.585-4.43 0c4.018-.777 6.333-3.037 7.005-5.995M5.61 11.999A2.391 2.391 0 0 1 9.28 9.97a2.966 2.966 0 0 1 2.998-2.528h.008c-.92 1.778-1.407 3.352-1.998 5.263A2.392 2.392 0 0 1 5.61 12Zm2.386-7.996a7.996 7.996 0 1 0 7.996 7.996a7.996 7.996 0 0 0-7.996-7.996m0 10.394A2.399 2.399 0 1 1 10.395 12a2.396 2.396 0 0 1-2.399 2.398Z">
+                </svg>
+                </a>
+
+                 <!-- weibo -->
+                <a href="https://weibo.com/u/5342789422/" class="icon-btn" title="微博" id="Weibo">
+                    <svg viewBox="0 0 512 512 " width="20" height="20">
+                    <path fill="currentColor" d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7c-22 4.8-28.8-28.1-7.1-32.8c50.1-10.9 92.3 37.1 76.5 84.8c-6.8 21.2-38.8 10.8-32-10.3M214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6c79.5-33.6 140.5-16.8 114 51.4c-3.7 9.4 1.1 10.9 8.3 13.1c135.7 42.3 34.8 215.2-169.7 215.2m143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7c-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116M347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3c72.3-15.2 134.8 52.8 111.7 124c-7.4 24.2 29.1 37 37.4 12c31.9-99.8-55.1-195.9-157.4-174.3m-78.5 311c-17.1 38.8-66.8 60-109.1 46.3c-40.8-13.1-58-53.4-40.3-89.7c17.7-35.4 63.1-55.4 103.4-45.1c42 10.8 63.1 50.2 46 88.5m-86.3-30c-12.9-5.4-30 .3-38 12.9c-8.3 12.9-4.3 28 8.6 34c13.1 6 30.8.3 39.1-12.9c8-13.1 3.7-28.3-9.7-34m32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4c-2.9 5.1-1.4 10.6 3.7 12.9c5.1 2 11.7-.3 14.6-5.4c2.8-5.2 1.1-10.9-4-12.9">
+                </svg>
+                </a>
+
+                 <!-- douyin -->
+                <a href="https://www.douyin.com/user/MS4wLjABAAAAnLh_tIRha-i0Tcy5YOljgLM18qCVhrlQ5n4duJ1iHSw6iSCsxEtce90zLYgEd52y" class="icon-btn" title="抖音" id="Douyin">
+                    <svg viewBox="0 0 24 24 " width="20" height="20">
+                    <path fill="currentColor" d="M19.321 5.562a5.124 5.124 0 0 1-.443-.258a6.228 6.228 0 0 1-1.137-.966c-.849-.971-1.166-1.956-1.282-2.645h.004c-.097-.573-.057-.943-.05-.943h-3.865v14.943c0 .2 0 .399-.008.595c0 .024-.003.046-.004.073c0 .01 0 .022-.003.033v.009a3.28 3.28 0 0 1-1.65 2.604a3.226 3.226 0 0 1-1.6.422c-1.8 0-3.26-1.468-3.26-3.281c0-1.814 1.46-3.282 3.26-3.282c.341 0 .68.054 1.004.16l.005-3.936a7.178 7.178 0 0 0-5.532 1.62a7.583 7.583 0 0 0-1.655 2.04c-.163.281-.779 1.412-.853 3.246c-.047 1.04.266 2.12.415 2.565v.01c.093.262.457 1.158 1.049 1.913a7.856 7.856 0 0 0 1.674 1.58v-.01l.009.01c1.87 1.27 3.945 1.187 3.945 1.187c.359-.015 1.562 0 2.928-.647c1.515-.718 2.377-1.787 2.377-1.787a7.43 7.43 0 0 0 1.296-2.153c.35-.92.466-2.022.466-2.462V8.273c.047.028.672.441.672.441s.9.577 2.303.952c1.006.267 2.363.324 2.363.324V6.153c-.475.052-1.44-.098-2.429-.59">
+                </svg>
+                </a>
+
+                 <!-- X -->
+                <a href="https://x.com/fuyaokoritsu" class="icon-btn" title="X (Twitter)" id="X (Twitter)">
+                    <svg viewBox="0 0 24 24 " width="20" height="20">
+                    <path fill="currentColor" d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z">
+                </svg>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于区域 -->
+    <section id="about" class="section-padding">
+        <div class="container about-layout">
+            <div class="about-img-box">
+                <img src="img/fuyao.webp" alt="About Fuyao">
+                <div class="img-backdrop"></div>
+            </div>
+            <div class="about-content">
+                <span class="section-tag">About</span>
+                <h2>東愛璃的自我介绍</h2>
+                <p class="description">
+                    大家好，这里是東愛璃Lovely，可以叫我狍子！
+                     <br><br>
+                    [直播内容待补充，例如：喜欢唱歌、玩游戏、杂谈]
+                     <br><br>
+                    [个人特色待补充]
+                     <br><br>
+                    [其他介绍待补充]
+                </p>
+                 <div class="friend-links">
+                    <a href="https://zh.moegirl.org.cn/zh-hans/%E7%AC%A6%E7%91%B6koritsu" target="_blank" class="link-card">
+                        <img src="img/fuyaoQQ.webp" alt="萌娘百科">
+                        <div class="link-info">
+                            <h4>萌娘百科</h4>
+                            <p>查看更详细的设定</p>
+                        </div>
+                    </a>
+                    <a href="http://qm.qq.com/cgi-bin/qm/qr?..." target="_blank" class="link-card">
+                        <img src="img/fyqq.webp" alt="QQ群">
+                        <div class="link-info">
+                            <h4>QQ粉丝群</h4>
+                            <p>加入我们</p>
+                        </div>
+                    </a>
+                    <a href="https://space.bilibili.com/3309149" target="_blank" class="link-card">
+                        <img src="img/kuru.webp" alt="库鲁">
+                        <div class="link-info">
+                            <h4>库鲁Kuru</h4>
+                            <p>符瑶的主人(?)</p>
+                        </div>
+                    </a>
+                     <a href="https://space.bilibili.com/1359081602" target="_blank" class="link-card">
+                        <img src="img/hechima.webp" alt="丝瓜">
+                        <div class="link-info">
+                            <h4>符符的直播切片</h4>
+                            <p>心碎丝瓜滞留地_Hechima & AAA烤栗子批发</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 博客展示区域 - 暂时隐藏 -->
+    <!--
+    <section id="blog-preview" class="section-padding bg-pale">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Secret</span>
+                <h2>東愛璃的小秘密</h2>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="card-date">
+                        <span class="day">--</span>
+                        <span class="month">---</span>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="#">[文章标题]</a></h3>
+                        <p>[文章简介待补充]</p>
+                        <a href="#" class="read-more">阅读更多<i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- 橱窗区域 -->
+    <section id="showcase" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Gallery</span>
+                <h2>東愛璃的形象展示</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- 形象 1 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character5.webp" alt="東愛璃形象1">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称1]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 2 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character4.webp" alt="東愛璃形象2">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称2]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 3 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character3.png" alt="東愛璃形象3">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称3]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 4 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character2.png" alt="東愛璃形象4">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称4]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 5 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character1.webp" alt="東愛璃形象5">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称5]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 6 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character6.webp" alt="東愛璃形象6">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称6]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+                <!-- 形象 7 -->
+                <div class="model-card">
+                    <div class="model-img">
+                        <img src="img/character7.webp" alt="東愛璃形象7">
+                    </div>
+                    <div class="model-info">
+                        <h4>[形象名称7]</h4>
+                        <p class="credit">[形象描述待补充]<br>[画师/建模信息]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- 左侧：品牌与声明 -->
+            <div class="footer-brand">
+                <div class="footer-logo">秧歌星的狍子窝</div>
+                <p class="footer-desc">
+                    本站为 <strong style="color: var(--accent-deep);">東愛璃Lovely</strong> 的非官方应援站。
+                </p>
+                <p class="license-text">
+                    内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 协议。<br>
+                    Designed by Hechima & Gemini 3 | Powered by GitHub Pages
+                </p>
+            </div>
+
+            <!-- 中间：运行时间与链接 -->
+            <div class="footer-links">
+                <h4 class="footer-heading">Station Status</h4>
+                <div class="runtime-display">
+                    <div id="uptime">本站已运行:<br> <span id="time">0天 0小时 0分钟 0秒</span> </div>
+                    <script>
+                        window.onload = function () {
+                        // 设置网站开设的日期 (格式：年-月-日)
+                        var websiteStartDate = new Date('2026-04-29T00:00:00'); // 网站开设日期
+                    
+                        function updateTime() {
+                            var now = new Date(); // 当前时间
+                            var elapsedTime = now - websiteStartDate; // 计算从网站开设到当前经过的时间
+                    
+                            var days = Math.floor(elapsedTime / (1000 * 60 * 60 * 24)); // 天数
+                            var hours = Math.floor((elapsedTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // 小时
+                            var minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60)); // 分钟
+                            var seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000); // 秒
+                    
+                            // 更新页面显示
+                            document.getElementById('time').innerText = days + "天 " + hours + "小时 " + minutes + "分钟 " + seconds + "秒";
+                        }
+                    
+                        // 每秒更新一次时间
+                        setInterval(updateTime, 1000);
+                        };
+                    </script>
+                </div>
+                <ul class="link-list">
+                    <a href="#" target="_blank" style="color: rgb(0, 0, 0) !important;">[备案信息待补充]</a>
+                </ul>
+            </div>
+
+            <!-- 右侧：本站配色卡 (真实提取自 CSS) -->
+            <div class="footer-colors">
+                <h4 class="footer-heading">Theme Palette</h4>
+                <div class="palette-grid">
+                    <!-- 1. 深紫文字色 -->
+                    <div class="color-dot-wrapper">
+                        <div class="color-dot" style="background: #6a4c93;"></div>
+                        <span class="color-code">#6a4c93</span>
+                    </div>
+                    <!-- 2. 主题强调色 -->
+                    <div class="color-dot-wrapper">
+                        <div class="color-dot" style="background: #9d84b7;"></div>
+                        <span class="color-code">#9d84b7</span>
+                    </div>
+                    <!-- 3. 氛围光斑色 -->
+                    <div class="color-dot-wrapper">
+                        <div class="color-dot" style="background: #e0c3fc;"></div>
+                        <span class="color-code">#e0c3fc</span>
+                    </div>
+                    <!-- 4. 极淡背景色 -->
+                    <div class="color-dot-wrapper">
+                        <div class="color-dot" style="background: #f9f7fc; border: 1px solid #eee;"></div>
+                        <span class="color-code">#f9f7fc</span>
+                    </div>
+
+                    <div class="color-dot-wrapper">
+                        <div class="color-dot" style="background: #493573;"></div>
+                        <span class="color-code">#493573</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部版权行 -->
+        <div class="footer-copyright">
+            &copy;Hechima的后花园. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
