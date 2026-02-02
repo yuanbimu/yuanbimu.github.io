@@ -14,7 +14,7 @@ jobs:
 
     - name: Get Bilibili Stats
       run: |
-        curl -s "https://api.bilibili.com/x/relation/stat?vmid=2109776" | jq '{follower: .data.follower, name: "符瑶koritsu", face: "https://i2.hdslb.com/bfs/face/a852499163294011a52bbd8952c3a8e90f6b386a.jpg"}' > bilibili-stats.json
+        curl -s "https://api.bilibili.com/x/relation/stat?vmid=3821157" | jq '{follower: .data.follower, name: "符瑶koritsu", face: "https://i2.hdslb.com/bfs/face/a852499163294011a52bbd8952c3a8e90f6b386a.jpg"}' > bilibili-stats.json
 
     - name: Commit and Push Bilibili Stats
       env:
